@@ -1,0 +1,37 @@
+# CODEOWNERS file for account-frontend-853
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-identity @Armor-test/dept-test @Armor-test/team-frontend
+
+# Directory ownership
+/docs/ @Armor-test/squad-payments @Armor-test/dept-automation
+/hooks/ @Armor-test/squad-research @Armor-test/squad-search
+/third_party/ @Armor-test/unit-cloud @Armor-test/dept-ui
+/src/ @Armor-test/dept-automation @Armor-test/squad-performance
+/security/ @Armor-test/unit-governance @Armor-test/grp-ui
+/styles/ @Armor-test/grp-payments @Armor-test/unit-devops
+/app/ @Armor-test/dept-notifications @Armor-test/squad-qa
+/views/ @Armor-test/squad-performance @Armor-test/dept-api @Armor-test/team-core
+/data/ @Armor-test/team-frontend @Armor-test/squad-ml
+/migrations/ @Armor-test/grp-reporting @Armor-test/squad-database
+
+# File type ownership
+*.yml @Armor-test/squad-ux @Armor-test/grp-integration
+*.gradle @Armor-test/dept-api @Armor-test/grp-storage
+*.jsx @Armor-test/squad-api @Armor-test/grp-search @Armor-test/unit-devops
+*.xml @Armor-test/team-reporting @Armor-test/squad-qa @Armor-test/team-frontend
+*.toml @Armor-test/team-notifications @Armor-test/team-core @Armor-test/dept-reliability
+*.tf @Armor-test/squad-product @Armor-test/squad-api @Armor-test/squad-cloud
+*.rs @Armor-test/unit-devops @Armor-test/unit-design @Armor-test/squad-payments
+*.scala @Armor-test/squad-database @Armor-test/grp-search
+*.ini @Armor-test/dept-identity @Armor-test/squad-ml @Armor-test/dept-data
+*.py @Armor-test/dept-security @Armor-test/unit-devops @Armor-test/unit-governance
+*.graphql @Armor-test/squad-mobile @Armor-test/dept-identity @Armor-test/squad-product
+*.go @Armor-test/dept-test @Armor-test/squad-qa
+*.cpp @Armor-test/team-frontend @Armor-test/squad-ml @Armor-test/squad-ux
+*.html @Armor-test/dept-identity @Armor-test/dept-notifications
+*.js @Armor-test/team-governance @Armor-test/dept-reporting
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
